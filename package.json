@@ -1,0 +1,33 @@
+{
+  "name": "jest-snapshot-utils",
+  "version": "0.0.2",
+  "description": "simple wrapper around jest to snapshot components",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/navjobs/jest-snapshot.git"
+  },
+  "keywords": [
+    "jest",
+    "react",
+    "test",
+    "react-native"
+  ],
+  "author": "Zach Silveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/navjobs/jest-snapshot/issues"
+  },
+  "homepage": "https://github.com/navjobs/jest-snapshot#readme",
+  "peerDependencies": {
+    "react-test-renderer": "^15.3.1",
+    "react": "^15.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0"
+  }
+}
