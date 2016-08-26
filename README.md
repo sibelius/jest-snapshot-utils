@@ -2,7 +2,10 @@
 
 A simple setup file for jest that makes react native snapshot testing a single function call away.
 
-Debating including mocks, such as: [ListView](https://github.com/facebook/jest/issues/1398) and others to this, since we can iterate faster than waiting on the jest team to officially support them.
+##Goals
+
+- Remove boilerplate
+- Provide mocks for components
 
 ###Install
 
@@ -55,3 +58,7 @@ describe('Intro', () => {
 
 });
 ```
+
+##Current mocks
+
+- ListView (currently isn't mocked, see: (#1398)[https://github.com/facebook/jest/issues/1398] on Jest's repo)
