@@ -61,4 +61,4 @@ describe('Intro', () => {
 
 ##Current mocks
 
-- ListView (currently isn't mocked, see: (#1398)[https://github.com/facebook/jest/issues/1398] on Jest's repo)
+- ListView (currently isn't mocked, see: [#1398](https://github.com/facebook/jest/issues/1398) on Jest's repo)
